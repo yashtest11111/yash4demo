@@ -7,7 +7,7 @@ from sklearn import metrics
 from urllib.parse import urlparse
 
 # tracking_uri = 'http://127.0.0.1:5000'
-# mlflow.set_tracking_uri(tracking_uri)
+# mlflow.set_tracking_uri(tracking_uri )
 
 # read csv
 features = pd.read_csv('temps.csv')
