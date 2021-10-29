@@ -11,6 +11,6 @@ data = {
 }
 # sending post request and saving response as response object
 r = requests.post(url=API_ENDPOINT, data=data)
-# extracting response text
+# extracting response te xt
 pastebin_url = r.text
 print("The pastebin URL is:%s" % pastebin_url)
