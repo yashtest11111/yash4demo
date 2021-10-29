@@ -1,4 +1,4 @@
-# importing the req ues ts library
+# importing the req ues ts  library
 import requests
 
 # defining the api-endpoint
